@@ -8,6 +8,7 @@ class MainView:
         print("="*30)
         print("1.- Gestión de Pacientes")
         print("2.- Gestión de Departamentos")
+        print("3.- Farmacia y Recetas Médicas (Consumo de API)")
         print("0.- Salir")
         print("="*30)
         return leer_numero("Seleccione una opción: ")
